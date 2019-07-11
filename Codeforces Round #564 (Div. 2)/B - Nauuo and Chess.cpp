@@ -9,7 +9,6 @@ int main()
     cin >> n;
     int m = (int)ceil((n+1)/2.0);
     cout << m << endl;
-    pair<int,int> curr;
     int num = 1;
     for(int i=1;i<=m;i++,num++)
         cout << 1 << " " << i << endl;
