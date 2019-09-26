@@ -13,6 +13,7 @@ int main()
         if(t2 < t1)curr = 1;
         else curr++;
         ans = max(ans,curr);
+        t1 = t2;
     }
     cout << ans << endl;
         
